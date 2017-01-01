@@ -1,0 +1,88 @@
+package test;
+
+import library.Calculations;
+import library.Conditions;
+import library.Example_Constructors;
+import library.Values;
+public class JavaPractice {
+	// public - you can access the methods, variables outside class
+	// private - can access methods, variables within class
+	// protected - can access with some conditions
+
+	//Class is a collection of Variables (Fields) & Methods (Functions)
+
+	//Access Modifier: public, private (default), protected
+
+	String firstName, lastName;
+
+	public static void main(String[] args) {// Does not return, Accepts args
+
+		System.out.println("Hello World!");// System - Class ; Method - println
+		System.out.println("Welcome to Java Class!");
+
+		Values val = new Values(); // Instantiation
+
+		val.assignValues();// Non-Static way
+
+
+		//	Values.assignValues(); // Static way
+
+		Calculations cal = new Calculations();
+		int a, b;
+		a= -987;b=500;
+		int sum = cal.add(a, b);
+
+		System.out.println("The Sum of "+a+" and "+b+" = "+ sum);
+		System.out.println("sum value is :" +cal.add(6, 8));
+
+		double y = 11.4, x = 411.6;
+
+		System.out.println("The difference between "+x+" & "+y +" = "+Calculations.subtract(x, y));
+
+
+		int p=5, q=6;
+		int z=Calculations.multi(p, q);
+		System.out.println("The product of "+p+" and "+q+" = " +z);
+
+		double g =5, h =2;
+		double quotient = Calculations.div(g, h);
+		System.out.println("The quotient when "+g+" is divided by "+h+" = " +quotient);
+
+		int m=9, n=7;
+		int o=Calculations.rem(m, n);
+		System.out.println("The remainder when "+m+" is divided by "+n+" = " +o);
+		int number1=5, number2=10, number3 = 15;
+		Conditions cond= new Conditions();
+		cond.min(number1, number2);
+
+
+		new Conditions().max(50, 457);//non-static calling
+
+		cond.min(number1, number2, number3);
+
+		new Conditions().max(15,20,50);
+		cond.max(number1, number2, number3);
+
+		cond.dayOfTheWeek(5);
+		cond.dayOfTheWeek(2);
+		
+		Conditions.dayOfTheWeek(8);
+		
+		
+	// Constructors
+		
+		
+	//	Example_Constructors excon = new Example_Constructors();//Default Constructor
+	//	Example_Constructors excon = new Example_Constructors(3,"xyz");//Default Constructor
+        
+		Example_Constructors excon = new Example_Constructors(3,"xyz", 25.639);
+		
+	 	excon.printsomething1();
+		
+		
+		
+		
+	}
+
+
+}

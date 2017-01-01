@@ -1,0 +1,25 @@
+package ExceptionHandling;
+
+public class Example1 {
+	
+	
+	public static void arithemetic1(double x, double y){
+		try {
+			System.out.println(x/y);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw e;
+ 		}
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+		arithemetic1(1, 2);
+		arithemetic1(0, 0);
+
+	}
+
+}

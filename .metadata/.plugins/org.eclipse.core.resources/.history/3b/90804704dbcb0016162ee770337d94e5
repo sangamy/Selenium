@@ -1,0 +1,16 @@
+package inheritance;
+
+public class Child1 extends  Parent2 {
+	 
+	public static void main(String[] args){
+		
+		System.out.println(a);
+		method();
+		
+		a=a+10;
+		System.out.println(a);
+
+	}
+	 
+
+}

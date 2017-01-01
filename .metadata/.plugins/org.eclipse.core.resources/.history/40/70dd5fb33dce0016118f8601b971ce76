@@ -1,0 +1,21 @@
+package test;
+
+public class AAA {
+	/**
+	 * Date Dec 29, 2016
+	 * Author Work
+	 * TestCase: AAA.java
+	 * Description: 
+	 */
+
+	public class Test {
+
+		 
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+}

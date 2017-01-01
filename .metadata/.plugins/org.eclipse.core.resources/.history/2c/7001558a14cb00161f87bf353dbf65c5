@@ -1,0 +1,23 @@
+/**
+ * Desciption: Testing out new class
+ */
+package test;
+
+/**
+ * @author sangam
+ * @updated 12/24/2016
+ */
+public class NewerClass {
+	
+	int a;
+	String b;
+	
+	public void someFunction(){
+		
+	}
+	
+	public static void main(String[] args){
+		
+	}
+
+}

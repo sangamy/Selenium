@@ -1,0 +1,32 @@
+package Examples;
+
+import java.util.HashMap;
+
+public class HashMapEx {
+
+	public static void main(String[] args) {
+		HashMap<String, String> h = new HashMap();
+
+
+		h.put("FirstName", "Barack");
+		h.put("MiddleName", "Hussein");
+		h.put("LastName", "Obama");
+		
+		h.put("FirstName", "Hillary");
+		h.put("MiddleName", "H");
+		h.put("LastName", "Clinton");
+		
+		h.put("FirstName", "Donald");
+		h.put("MiddleName", "J");
+		h.put("LastName", "Trump");
+	
+		for (int i = 3; i < args.length; i++) {
+			System.out.println(h.get("FirstName")+ " "+ h.get("MiddleName")+ " "+h.get("LastName"));
+
+		}
+		
+
+
+	}
+
+}

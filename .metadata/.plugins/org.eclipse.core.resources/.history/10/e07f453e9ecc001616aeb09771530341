@@ -1,0 +1,21 @@
+package Examples;
+
+public class While {
+
+	public static void main(String[] args) {
+		int i = 1;
+
+		// While Loop
+		while(i<=30){
+			System.out.println(i);		
+			i++;
+		}
+
+		// Do-While Loop	
+		do{
+			executable stt....
+		} while (condition)
+
+	}
+
+}

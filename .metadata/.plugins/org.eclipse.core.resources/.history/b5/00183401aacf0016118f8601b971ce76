@@ -1,0 +1,24 @@
+/**
+ * Date: Dec 31, 2016
+ * Author: Sangam
+ * TestCase: StringUtils.java
+ * Description: Reusable String Utility Functions
+ */
+package utils;
+
+public class StringUtils {
+	
+	
+	public boolean compare(String expectedValue, String actualValue){
+		boolean flag;
+		if(expectedValue.equalsIgnoreCase(actualValue))
+			flag=true;
+		else
+			falg=false;
+		
+		return flag;
+		
+	}
+	
+
+}

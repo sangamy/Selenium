@@ -1,0 +1,20 @@
+package ExceptionHandling;
+
+public class Example1 {
+	
+	
+	public static void arithemetic1(double x, double y){
+		
+		System.out.println(x/y);
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+		arithemetic1(1, 2);
+		arithemetic1(0, 0);
+
+	}
+
+}

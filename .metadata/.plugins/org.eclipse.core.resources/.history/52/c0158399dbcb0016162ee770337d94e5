@@ -1,0 +1,19 @@
+package inheritance;
+
+public class Child1 extends Parent1 {
+	 
+	  void method(){
+		 
+		 
+	 }
+	
+	public static void main(String[] args){
+		
+		System.out.println(a);
+		
+		 
+
+	}
+	 
+
+}

@@ -1,0 +1,31 @@
+package Examples;
+
+public class StringManipulations {
+
+	public static void main(String[] args) {
+
+
+		try {
+			String name = "Shah Rukh Khan";
+
+			System.out.println("Length of name = "+ name.length());
+
+			System.out.println("Character at position 5 = "+ name.charAt(4));
+
+			String nameWithOutSpaces = name.replace(" ", "");
+			System.out.println(nameWithOutSpaces);
+			
+			String subSt = name.substring(5);
+			System.out.println(subSt);
+
+
+		} catch (StringIndexOutOfBoundsException e) {
+			e.printStackTrace();
+		}
+		finally{
+			System.out.println("The method is executed!");
+		}
+
+	}
+
+}

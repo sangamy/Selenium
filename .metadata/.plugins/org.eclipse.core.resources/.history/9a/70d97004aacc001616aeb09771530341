@@ -1,0 +1,20 @@
+package Examples;
+
+import java.util.HashMap;
+
+public class HashMapEx {
+
+	public static void main(String[] args) {
+		HashMap<String, String> h = new HashMap();
+
+
+		h.put("FirstName", "Barack");
+		h.put("MiddleName", "Hussein");
+		h.put("LastName", "Obama");
+		
+		
+
+
+	}
+
+}

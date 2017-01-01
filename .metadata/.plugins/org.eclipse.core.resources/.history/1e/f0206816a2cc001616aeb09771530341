@@ -1,0 +1,23 @@
+package Examples;
+
+public class StringManipulations {
+
+	public static void main(String[] args) {
+ 
+		
+		try {
+			String name = "Vijay";
+			
+			System.out.println("Length of name = "+ name.length());
+			
+			System.out.println("Character at position 5 = "+ name.charAt(5));
+		} catch (Exception e) {
+ 			e.printStackTrace();
+		}
+		finally{
+			System.out.println("The method is executed!");
+		}
+
+	}
+
+}

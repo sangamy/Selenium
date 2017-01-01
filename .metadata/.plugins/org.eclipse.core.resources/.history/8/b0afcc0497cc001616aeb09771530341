@@ -1,0 +1,29 @@
+package Examples;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class SwapNumbers {
+
+	public static void main(String[] args) {
+		
+		
+	int x =2,y=3, temp;
+	
+/*	File f = new File();
+	Scanner in =new Scanner();*/
+	
+	 
+	System.out.println("Before Swap: \n"+x = "+x + "\n"+ "y = "+y);
+	
+		temp = x;
+		x= y;
+		y=temp;
+		System.out.println("After Swap: \n"+x = "+x + "\n"+ "y = "+y);
+	
+		
+		
+ 
+	}
+
+}

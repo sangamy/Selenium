@@ -1,0 +1,25 @@
+package Examples;
+
+public class Boolean {
+
+// Alwa
+	public boolean compareTwoNames(String name1, String name2){
+
+		boolean flag=false;
+		try {
+			if(name1.equals(name2))
+				flag=true;
+			else
+				flag=false;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return flag;
+	}
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

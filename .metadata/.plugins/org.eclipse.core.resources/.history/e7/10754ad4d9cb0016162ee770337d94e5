@@ -1,0 +1,8 @@
+package inheritance;
+
+public class Child {
+	Parent p = new Parent();
+	
+	p.
+
+}

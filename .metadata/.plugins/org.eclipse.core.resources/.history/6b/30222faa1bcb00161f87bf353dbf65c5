@@ -1,0 +1,48 @@
+package library;
+
+public class Example_Constructors {
+
+	int a;
+	String b;
+	double c;
+	// Default Constructor
+	public Example_Constructors(){
+
+		a = 1;
+		b = "ABC";
+		c= 30.265;
+		
+	}
+
+	// Parameterized Constructor
+
+	public Example_Constructors(int a, String b){
+
+		this.a = a;
+		this.b = b;
+	}
+    
+	public Example_Constructors(int a, String b, double c){
+ 		this.a = a;
+		this.b = b;
+		this.c = c;
+	}
+	
+	
+	public void printSomething(){
+
+		System.out.println("a = "+this.a);
+		System.out.println("b = "+this.b);
+		
+
+	}
+	
+	public void printsomething1(){
+		
+		System.out.println("a = "+this.a);
+		System.out.println("b = "+this.b);
+		System.out.println("c = "+this.c);
+	}
+
+
+}

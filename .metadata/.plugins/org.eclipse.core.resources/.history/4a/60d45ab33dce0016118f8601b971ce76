@@ -1,0 +1,15 @@
+package test;
+
+public class Some {
+
+package test;
+
+public class GoogleTest {
+
+	public static void main(String[] args) {
+ 
+		System.out.println("Test Case Start...");
+		
+	}
+
+}}

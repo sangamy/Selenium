@@ -1,0 +1,13 @@
+package Examples;
+
+public class StringManipulations {
+
+	public static void main(String[] args) {
+ 
+		
+		String name = "Vijay";
+		
+		System.out.println("Length of name = "+ name.length());
+	}
+
+}

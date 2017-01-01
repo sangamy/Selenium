@@ -1,0 +1,9 @@
+package inheritance;
+
+public class Parent {
+int a = 20;
+String str1 = "Inheritance example"
+void method(){
+	System.out.println("this is parent class");
+}
+}

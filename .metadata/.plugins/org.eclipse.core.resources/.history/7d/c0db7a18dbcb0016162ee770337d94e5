@@ -1,0 +1,9 @@
+package inheritance;
+
+public class Parent2 {
+
+	int x=11;
+	void method2(){
+		System.out.println("some....");
+	}
+}

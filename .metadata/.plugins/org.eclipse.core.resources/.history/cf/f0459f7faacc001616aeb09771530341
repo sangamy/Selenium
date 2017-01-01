@@ -1,0 +1,28 @@
+package Examples;
+
+import java.util.HashMap;
+
+public class HashMapEx {
+
+	public static void main(String[] args) {
+		HashMap<String, String> h = new HashMap();
+
+
+		h.put("FirstName", "Barack");
+		h.put("MiddleName", "Hussein");
+		h.put("LastName", "Obama");
+		h.put("FirstName", "Barack");
+		h.put("MiddleName", "Hussein");
+		h.put("LastName", "Obama");h.put("FirstName", "Barack");
+		h.put("MiddleName", "Hussein");
+		h.put("LastName", "Obama");
+		for (int i = 3; i < args.length; i++) {
+			System.out.println(h.get("FirstName")+ " "+ h.get("MiddleName")+ " "+h.get("LastName"));
+
+		}
+		
+
+
+	}
+
+}

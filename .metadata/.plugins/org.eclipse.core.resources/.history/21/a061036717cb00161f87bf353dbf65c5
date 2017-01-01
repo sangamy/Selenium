@@ -1,0 +1,15 @@
+package library;
+
+public class Example_Constructors {
+	
+	int a;
+	String b;
+	
+	Example_Constructors(){
+		
+		a = 1;
+		b = "ABC";
+	}
+	
+
+}

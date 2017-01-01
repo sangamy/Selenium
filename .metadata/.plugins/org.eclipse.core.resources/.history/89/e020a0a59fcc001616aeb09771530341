@@ -1,0 +1,22 @@
+package Examples;
+
+public class Boolean {
+	
+	
+	public boolean compareTwoNames(String name1, String name2){
+		try {
+			if(name1.equals(name2))
+				return true;
+			else
+				return false;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+ 
+		
+	}
+
+}

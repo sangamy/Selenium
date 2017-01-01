@@ -1,0 +1,24 @@
+package test;
+
+public class AAA {
+	/**
+	 * Date Dec 29, 2016
+	 * Author Work
+	 * TestCase: AAA.java
+	 * Description: 
+	 */
+
+	public class Test {
+
+		public static void main(String[] args) {
+
+			System.out.println("Test Case Starts...");
+
+			System.out.println("Test Case Ends...");
+		}
+
+	}
+
+
+
+}

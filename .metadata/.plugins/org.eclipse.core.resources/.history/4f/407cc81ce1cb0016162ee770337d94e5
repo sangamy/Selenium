@@ -1,0 +1,28 @@
+package ExceptionHandling;
+
+public class Example1 {
+	
+	
+	public static void ex1(){
+		try {
+			System.out.println("Entered Try Block");
+			String[] x1 = null;
+			x1[-1] = "abc";
+ 
+		} catch (Exception e) {
+			System.out.println("Entered Catch Block");
+
+			e.printStackTrace();
+			throw e;
+ 		}
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+		ex1();
+
+	}
+
+}
